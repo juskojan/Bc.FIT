@@ -1,0 +1,236 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia,"Times New Roman", Times, serif;
+	color:#919191;
+	background-color:#232323;
+}
+.clear:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+}
+.clear{
+	display:block;
+	clear:both;
+}
+a{
+	outline:none;
+	text-decoration:none;
+}
+iframe {
+	float:left;
+	padding:4px;
+	border:1px solid #D6D6D6;
+	}
+article, figcaption, figure, footer, header, nav, section{
+	display:block;
+	margin:0;
+	padding:0;
+}
+.row1, .row1 a{
+	color:#dddfd4;
+	background-color:#173e43;
+}
+.row2{
+	color:#989898;
+	background-color:#FEFEFE;
+}
+.row2 a{
+	color:#FF9900;
+	background-color:#FEFEFE;
+}
+.row3, .row3 a{
+	color:#dddfd4;
+	background-color:#173e43;
+}
+#header, #container, #footer{
+	display:block;
+	width:960px;
+	margin:0 auto;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	line-height:normal;
+	text-transform:uppercase;
+}
+.one_third, .two_third, .three_third{
+	display:block; float:left; margin:0 30px 0 0;
+}
+.one_third{
+	width:300px;
+}
+.two_third{
+	width:630px;
+}
+.three_third{
+	width:960px;
+	float:none;
+	margin-right:0;
+	clear:both;
+}
+.lastbox{
+	margin-right:0;
+}
+#header{
+	padding:25px 0;
+}
+#header #hgroup{
+	float:left;
+	margin:0 0 20px 0;
+}
+#header h1{
+	font-weight:normal;
+	text-transform:none;
+	font-size:36px;
+}
+#header h2{
+	font-weight:normal;
+	text-transform:none;
+	font-size:13px;
+}
+#header nav{
+	display:block;
+	float:right;
+	margin:10px 0 0 0;
+	padding:20px 0;
+	color:#C0BAB6;
+	background-color:#232323;
+}
+#header nav ul{
+	padding:0 20px;
+}
+#header nav li{
+	display:inline;
+	margin-right:25px;
+	text-transform:uppercase;
+}
+#header nav li a{
+	color:#dddfd4;
+	background-color:#232323;
+}
+#header nav li a:hover{
+	color:#3fb0ac;
+	background-color:#232323;
+}
+#header nav li a.selected{
+	color:#3fb0ac;
+	background-color:#232323;
+}
+#container{
+	padding:30px 0;
+}
+#container section{
+	display:block;
+	width:100%;
+	margin:0 0 50px 0;
+	padding:0;
+}
+#container .last{
+	margin:0;
+}
+#container .more{
+	text-align:right;
+	color:#3fb0ac
+}
+
+#container #welcome figure img{
+	float:right;
+	width:630px;
+	height:300px;
+}
+#container #welcome figure figcaption{
+	display:block; 
+	float:left;
+	width:280px; height:260px;
+	padding:20px;
+	overflow:hidden;
+	color:#989898; background-color:#DEDEDE;
+	line-height:1.6em;
+}
+#container #welcome figure h2{
+	font-size:42px;
+	font-weight:normal;	font-style:bold;
+	text-transform:none;
+	color:#3fb0ac
+}
+#container #homepage{
+	display:block;
+	width:100%;
+	line-height:1.6em;
+}
+#container #homepage h2{
+	color: #3fb0ac
+}
+#container nav{
+	display:block;
+	float:right;
+	margin:-30px 370px 0 100px;
+	padding:13px 0;
+	color:#C0BAB6; background-color:#fae596;
+}
+#container nav ul{
+	padding:0 20px;
+}
+#container nav li{
+	display:inline;
+	margin-right:25px;
+	text-transform:uppercase;
+}
+#container nav li a{
+	color:#173e43;
+	background-color:#fae596;
+}
+#container nav li a:hover{
+	color:#3fb0ac;
+	background-color:#fae596;
+}
+#container nav li a.selected{
+	color:#3fb0ac;
+	background-color:#fae596;
+}
+#sluzby img {
+	float:left;
+	margin:0 20px 10px 0;
+	padding:4px;
+	border:1px solid #DEDEDE;
+	}
+#sluzby a{
+	color: #3fb0ac
+}
+#sluzby a:hover{
+	color: #FF9900
+}
+#mycont{
+	float:left;
+	margin-top: -10px
+}
+#container h1, #container h2 {
+	color:#3fb0ac
+}
+#footer{
+	padding:20px 0;
+}
+#footer p{
+	margin:0;
+	padding:0;
+}
+.fl_left{
+	float:left;
+}
+.fl_right{
+	float:right;
+}
